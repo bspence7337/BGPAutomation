@@ -1,0 +1,7 @@
+env/
+chromedriver
+*.swp
+*.html
+*.png
+*.ips.txt
+*.domains.txt
