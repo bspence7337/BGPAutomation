@@ -42,7 +42,4 @@ BGP does have a query limit, so it may be possible you abort before you finish e
 
 ## Demo
 
-[![asciicast](https://asciinema.org/a/VeRuALc9uqtS4uQ2PKG6O76Y8)](https://asciinema.org/a/VeRuALc9uqtS4uQ2PKG6O76Y8)
-<script src="https://asciinema.org/a/VeRuALc9uqtS4uQ2PKG6O76Y8.js" id="asciicast-VeRuALc9uqtS4uQ2PKG6O76Y8" async></script>
-
 <a href="https://asciinema.org/a/VeRuALc9uqtS4uQ2PKG6O76Y8" target="_blank"><img src="https://asciinema.org/a/VeRuALc9uqtS4uQ2PKG6O76Y8.png" /></a>
