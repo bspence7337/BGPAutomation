@@ -39,3 +39,7 @@ Example: Discover ip ranges and domain names associated with Uber.
 ## Additional Notes
 
 BGP does have a query limit, so it may be possible you abort before you finish enumerating.
+
+## Demo
+
+[![asciicast](https://asciinema.org/a/VeRuALc9uqtS4uQ2PKG6O76Y8)](https://asciinema.org/a/VeRuALc9uqtS4uQ2PKG6O76Y8)

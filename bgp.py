@@ -99,7 +99,7 @@ def process_pages(pages, driver):
             else:
                 print("Unknown link type, cannot parse.")
             count += 1
-            print("Parsed {} page.".format(count))
+            print("Parsed {} pages...".format(count))
         except Exception as e:
             if "You have reached your query limit" in driver.page_source:
                 print("Query limit reached. Breaking and writing results.")
