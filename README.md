@@ -6,7 +6,7 @@ Automate BGP looking glass queries through https://bgp.he.net. This will pull re
 
 Running Mac or Windows OS. These are the supported OS' Chrome Canary / Chrome Driver supports.
 
-I also highly recommend you use virtualenv to manage the dependencies.
+I also highly recommend you use virtualenv to manage the dependencies. If you're having trouble setting up the Chrome Driver and Canary, I recommend following this guide by Duo to get up and running: https://duo.com/decipher/driving-headless-chrome-with-python
 
 ### Note
 
@@ -17,6 +17,8 @@ I've only tested this on Mac OSX 10.13.X and do not plan to support Windows. If 
 Download and install the Chrome Canary here: https://www.google.com/chrome/browser/canary.html
 
 Download the Chrome Driver here and unzip it's contents into this repository: https://chromedriver.storage.googleapis.com/index.html?path=2.40/
+
+Edit the settings.py file to point to your copy of Chrome Canary and Chrome Driver respectively.
 
 Create a virtualenv for in this directory:
 

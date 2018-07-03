@@ -7,6 +7,7 @@ from time import sleep
 from bs4 import BeautifulSoup
 import re
 from optparse import OptionParser
+from settings import CHROME_CANARY, CHROME_DRIVER
 
 def get_choice(description):
     """
@@ -138,9 +139,9 @@ Author: Dwight Hohnstein (@djhohnstein)
 
     chrome_options = Options()  
     chrome_options.add_argument("--headless")  
-    chrome_options.binary_location = '/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary' 
+    chrome_options.binary_location = CHROME_CANARY 
 
-    driver = webdriver.Chrome(executable_path=os.path.abspath("chromedriver"), chrome_options=chrome_options)  
+    driver = webdriver.Chrome(executable_path=CHROME_DRIVER, chrome_options=chrome_options)  
     base_url = "http://bgp.he.net"
     driver.get(base_url)
 
