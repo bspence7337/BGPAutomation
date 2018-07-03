@@ -196,6 +196,7 @@ Author: Dwight Hohnstein (@djhohnstein)
     if pages_to_process:
         print("Parsing results...")
         results = process_pages(pages_to_process, driver)
+        print()
         print("CIDRs belonging to {}:".format(options.company))
         print("------------------------")
         print("\n".join(results["net_blocks"]))

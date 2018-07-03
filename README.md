@@ -1,6 +1,6 @@
 # BGP Automation
 
-Automate BGP looking glass queries through https://bgp.he.net
+Automate BGP looking glass queries through https://bgp.he.net. This will pull registered IP ranges and extract any newly discovered domains connected to those ranges.
 
 ## Requirements
 
